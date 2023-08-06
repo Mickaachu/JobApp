@@ -11,6 +11,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "scheme": "jobapp",
+    "expo": {
+      "name": "My App"
+    },
+    
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -25,6 +30,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
